@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
-  path: exampleSite/content/blog
+  path: content/blog
   label: Post
   create: documents
   match: "**/*"
@@ -16,24 +16,24 @@ sections:
 - type: heading
   label: Others Pages
 - type: directory
-  path: exampleSite/content/about
+  path: content/about
   label: About
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content/contact
+  path: content/contact
   label: Contact
   create: none
   match: "*"
 - type: directory
-  path: exampleSite/content
+  path: content
   label: All Pages
   create: all
   match: "**/*"
 - type: heading
   label: Configuration
 - type: directory
-  path: exampleSite
+  path: config.toml
   label: Configuration
   create: all
   match: "*.toml"
